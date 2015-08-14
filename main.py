@@ -31,7 +31,7 @@ class login_GUI(QtGui.QWidget, Ui_login_Widget):
        def open_main_GUI(self):
               username = self.login_username_lineEdit.text()
               password = self.login_password_lineEdit.text()
-              if username == "postgres" and password == "zanoktica":
+              if username == "user" and password == "pass":
                      self.close()
                      global main_GUI
                      main_GUI = database_GUI()
